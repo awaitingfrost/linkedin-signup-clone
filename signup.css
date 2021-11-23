@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+header {
+  text-align: center;
+  margin-top: 1rem;
+}
+header > img {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.life {
+  margin: 0 auto;
+  text-align: center;
+  margin: 1.8rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.form {
+  margin-left: 1rem;
+}
+
+.email {
+  color: rgb(136, 136, 136);
+  margin-bottom: 0.4rem;
+}
+
+.password {
+  margin-top: 1.5rem;
+  color: rgb(136, 136, 136);
+  margin-bottom: 0.4rem;
+}
+
+input {
+  width: 96%;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.click {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  font-weight: small;
+  color: rgb(85, 85, 85);
+}
+.click {
+  text-align: center;
+  margin-top: 0.9rem;
+}
+
+span {
+  color: rgb(16, 111, 199);
+}
+
+button {
+  text-align: center;
+  background-color: rgb(10, 106, 195);
+  color: white;
+  padding: 10px;
+  width: 97%;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: large;
+  height: 3rem;
+}
+.btn > button:nth-child(2) {
+  margin-top: 1rem;
+  border: 1px solid rgb(7, 164, 255);
+  background-color: white;
+  color: rgb(25, 152, 255);
+  font-size: 0.9rem;
+  font-weight: large;
+}
+
+.btn {
+  text-align: center;
+}
+.google-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+.google {
+  padding-left: 1rem;
+}
+.already {
+  text-align: center;
+  margin-top: 1em;
+  color: rgb(70, 70, 70);
+  font-size: 1.1em;
+}
+
+.help {
+  margin-top: 3em;
+  text-align: center;
+  color: rgb(83, 83, 83);
+}
+.sig {
+  font-size: 1.2em;
+}
+.get {
+  font-size: 1.2em;
+}
